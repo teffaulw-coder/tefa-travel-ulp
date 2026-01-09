@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sewa Travel & Transportasi | Tefa Edutour & Travel ULP</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#e9eef3;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(to right,#0066cc,#0099ff);
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+/* SECTION */
+section{
+    background:white;
+    margin:30px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 15px rgba(0,0,0,.1);
+}
+
+h2{
+    color:#0066cc;
+    margin-top:0;
+}
+
+/* TABLE */
+.table-wrap{
+    overflow-x:auto;
+}
+
+table{
+    width:100%;
+    min-width:900px;
+    border-collapse:collapse;
+    font-size:14px;
+}
+
+th{
+    background:#0066cc;
+    color:white;
+    padding:10px;
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ccc;
+    vertical-align:top;
+}
+
+tr:nth-child(even){
+    background:#f7fbff;
+}
+
+/* KETERANGAN */
+.ket-umum{
+    background:#f0f8ff;
+    line-height:1.6;
+}
+.ket-paket{
+    background:#f7fff2;
+    line-height:1.6;
+}
+
+.badge{
+    display:inline-block;
+    padding:4px 10px;
+    border-radius:4px;
+    font-size:12px;
+    color:white;
+    margin-bottom:8px;
+}
+.badge.umum{background:#0066cc;}
+.badge.paket{background:#28a745;}
+
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    background:#0066cc;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+/* FOOTER */
+footer{
+    background:#004c99;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    section{
+        margin:15px;
+        padding:20px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sewa Travel & Transportasi</h1>
+    <p>Rincian Harga Mobil Hiace</p>
+</header>
+
+<section>
+<h2>Detail Rincian Objek Retribusi Transportasi</h2>
+
+<div class="table-wrap">
+<table>
+<tr>
+    <th>No</th>
+    <th>Nama Layanan</th>
+    <th>Satuan (Lama)</th>
+    <th>Satuan (Baru)</th>
+    <th>Tarif (Lama)</th>
+    <th>Tarif (Baru)</th>
+    <th>Keterangan</th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td>Umum dalam Kota</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>Rp 300.000</td>
+    <td>Rp 300.000</td>
+    <td rowspan="4" class="ket-umum">
+        <span class="badge umum">UMUM</span><br>
+        • Harga belum termasuk jasa supir<br>
+        • BBM, tol, dan parkir belum termasuk<br>
+        • Maksimal penggunaan 14 jam/hari<br>
+        • Kelebihan waktu dikenakan cas 10%/jam
+    </td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>Umum dalam Provinsi</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>Rp 500.000</td>
+    <td>Rp 500.000</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>Umum Luar Provinsi</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>Rp 700.000</td>
+    <td>Rp 700.000</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>Khusus dalam/luar Kota/Provinsi</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>Rp 250.000</td>
+    <td>Rp 250.000</td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td>Paket Dalam Kota Padang</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>-</td>
+    <td>Rp 1.000.000</td>
+    <td rowspan="4" class="ket-paket">
+        <span class="badge paket">PAKET</span><br>
+        • Harga sudah termasuk jasa supir<br>
+        • BBM sudah termasuk<br>
+        • Maksimal penggunaan 14 jam/hari<br>
+        • Tol & parkir menyesuaikan rute perjalanan
+    </td>
+</tr>
+
+<tr>
+    <td>6</td>
+    <td>Paket Dalam Provinsi Sumbar</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>-</td>
+    <td>Rp 1.400.000</td>
+</tr>
+
+<tr>
+    <td>7</td>
+    <td>Paket Pulau Sumatera</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>-</td>
+    <td>Rp 1.700.000</td>
+</tr>
+
+<tr>
+    <td>8</td>
+    <td>Paket Pulau Jawa</td>
+    <td>1 hari</td>
+    <td>1 hari</td>
+    <td>-</td>
+    <td>Rp 2.000.000</td>
+</tr>
+</table>
+</div>
+
+<a href="index.html" class="btn">← Kembali</a>
+</section>
+
+<footer>
+<p>© 2026 Tefa Edutour & Travel ULP | Teaching Factory</p>
+</footer>
+
+</body>
+</html>

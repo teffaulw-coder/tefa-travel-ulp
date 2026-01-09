@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tefa Edutour & Travel ULP</title>
+
+<style>
+*{box-sizing:border-box}
+body{
+    margin:0;
+    font-family:Arial, sans-serif;  yang ini kok bisa ada gambar?  
+    background:#f4f6f8;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    position:relative;
+    background:linear-gradient(to right,#0066cc,#0099ff);
+    color:white;
+    padding:80px 20px 50px;
+    text-align:center;
+}
+
+/* LOGO */
+.logo{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    object-fit:cover;
+    position:absolute;
+    top:20px;
+    background:#fff;
+    padding:5px;
+}
+.logo.kiri{left:20px}
+.logo.kanan{right:20px}
+.logo.tengah{
+    left:50%;
+    transform:translateX(-50%);
+}
+
+/* NAVBAR */
+nav{
+    background:#004c99;
+    padding:10px;
+    text-align:center;
+}
+nav a{
+    color:white;
+    margin:0 12px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* SECTION */
+section{
+    background:white;
+    margin:20px;
+    padding:30px;
+    border-radius:8px;
+}
+
+/* SERVICES */
+.services{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+.card{
+    display:block;
+    background:#f0f8ff;
+    padding:20px;
+    border-radius:8px;
+    flex:1;
+    min-width:250px;
+    text-decoration:none;
+    color:#333;
+    transition:.3s;
+}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 6px 15px rgba(0,0,0,.15);
+}
+
+/* PAKET */
+.paket-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+.paket{
+    background:#eef6ff;
+    padding:20px;
+    border-radius:10px;
+    text-decoration:none;
+    color:#333;
+    transition:.3s;
+}
+.paket:hover{
+    background:#d9ecff;
+    transform:translateY(-5px);
+}
+
+/* FOOTER */
+footer{
+    background:#004c99;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    nav a{display:block;margin:8px 0}
+    .logo{width:55px;height:55px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="images/logo-kiri.png" class="logo kiri">
+    <img src="images/logo-tengah.png" class="logo tengah">
+    <img src="images/logo-kanan.png" class="logo kanan">
+
+    <h1>Tefa Edutour & Travel ULP</h1>
+    <p>Solusi Edukasi, Wisata, dan Transportasi Terpercaya</p>
+</header>
+
+<nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#paket">Paket Wisata</a>
+    <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="tentang">
+    <h2>Tentang Kami</h2>
+    <p>
+        <b>Tefa Edutour & Travel ULP</b> adalah unit Teaching Factory
+        yang bergerak di bidang wisata edukasi, MICE, dan transportasi.
+    </p>
+</section>
+
+<section id="layanan">
+    <h2>Layanan Kami</h2>
+    <div class="services">
+        <a href="edutour.html" class="card">
+            <h3>Edu Tour & Study Tour</h3>
+            <p>Wisata edukatif & kunjungan industri.</p>
+        </a>
+        <a href="transportasi.html" class="card">
+            <h3>Sewa Transportasi</h3>
+            <p>Hiace, bus, dan kendaraan operasional.</p>
+        </a>
+        <a href="mice.html" class="card">
+            <h3>MICE</h3>
+            <p>Meeting, Incentive, Conference, Exhibition.</p>
+        </a>
+    </div>
+</section>
+
+<section id="paket">
+    <h2>Paket Wisata</h2>
+    <div class="paket-grid">
+        <a href="study-tour.html" class="paket">
+            <h3>📘 Study Tour</h3>
+            <p>Paket edukasi sekolah & kampus.</p>
+        </a>
+        <a href="wisata-edukasi.html" class="paket">
+            <h3>📗 Wisata Edukasi</h3>
+            <p>Belajar sambil berwisata.</p>
+        </a>
+        <a href="wisata-keluarga.html" class="paket">
+            <h3>📙 Wisata Keluarga</h3>
+            <p>Liburan nyaman & ramah anak.</p>
+        </a>
+        <a href="paket-custom.html" class="paket">
+            <h3>🛠 Paket Custom</h3>
+            <p>Bebas sesuai kebutuhan.</p>
+        </a>
+    </div>
+</section>
+
+<section id="kontak">
+    <h2>Kontak</h2>
+    <p>
+        📍 SMKN 2 Padang<br>
+        📞 08xxxxxxxxxx<br>
+        📧 tefaedutour@email.com
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Tefa Edutour & Travel ULP</p>
+</footer>
+
+</body>
+</html>
